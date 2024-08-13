@@ -11,7 +11,7 @@ const Box = (props) => {
     return (
         <div className={`box ${result.toLowerCase()}`}>
             <h1>{props.title}</h1>
-            <img className="item-img" src={props.item && props.item.img}/>
+            <img className="item-img" src={props.item && props.item.img} alt=""/>
             <h2>{result}</h2>
         </div>
     );
