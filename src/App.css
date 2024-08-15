@@ -5,6 +5,23 @@
     margin: 5px;
 
 }
+
+@media all and (max-width: 1000px){
+    .box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .item-img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
 .app{
     margin: 40px;
     display: flex;
